@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h3{
+    padding-bottom: 1em;
+}
+.cat1, .cat2 {
+    width: 60%;
+}
+
+.cat1 {
+    order: 2;
+}
+
+.cat2 {
+    order: 3;
+    padding-top: 2em;
+}
+.image {
+    /* height: 100vh; */
+    order: 4;
+    margin-left: 2%;
+    margin-top: -5%;
+    width: 38%;
+    border-end-start-radius: 10%;
+    
+}
+
+img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px ;
+    width: 80%;
+    margin-bottom: -0.6%;
+}
+
+.text-img {
+    width: 80%;
+    margin-bottom: 5%;
+    padding-right: 2%;
+    background-color: rgb(62, 98, 137);
+    color: aliceblue;
+    text-align: right;
+    font-size: 14px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+@media (max-width: 800px) {
+
+    .cat1, .cat2 {
+        width: 90%;
+    }
+    
+    .cat1 {
+        position: relative;
+        order: 1;
+        margin-left: 2%;
+    }
+    
+    .cat2 {
+        order: 3;
+        padding-top: 1em;
+        margin-left: 2%;
+    }
+    .image {
+        margin-top: 2vh;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        order:2;
+        margin-left: 2%;
+        width: 90%;
+        
+    }
+    
+    img{
+        width: 100%;
+        margin-bottom: -1%;
+    }
+    .in-img1,.in-img2{
+        width: 48%;
+        
+    }
+    
+    .in-img2{
+        padding-left: 2%;
+        width: 52%;
+    }
+       
+    .text-img {
+        width: 100%;
+    }
+   
+}
+
+@media (max-width: 600px) {
+
+    .cat1, .cat2 {
+        width: 90%;
+    }
+    
+    .cat1 {
+        position: relative;
+        order: 1;
+        margin-left: 2%;
+    }
+    
+    .cat2 {
+        order: 3;
+        padding-top: 1em;
+        margin-left: 2%;
+    }
+    .image {
+        margin-top: 2vh;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        order:2;
+        margin-left: 2%;
+        width: 90%;
+        
+    }
+    
+    img{
+        width: 100%;
+        margin-bottom: -1%;
+    }
+    .in-img1,.in-img2{
+        width:100%;
+        
+    }
+    .in-img2{
+        padding-left: 2%;
+    }
+       
+    .text-img {
+        width: 100%;
+    }
+   
+}
